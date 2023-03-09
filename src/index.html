@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário</title>
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="images/ebac_logo.svg" alt="EBAC Logo">
+            <p class="hero__text">
+                Meu Aniversário começará em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        R. JavaScript - Bairro Parcel - Amazonas
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 1,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        24/05/2023 às 00:00
+                    </li>
+                </ul>
+                <a class="button button--primary" href="#">
+                    Garanta sua entrada
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--bolo">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Bolo</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo officiis nulla, pariatur at tenetur cum explicabo quisquam repellendus totam illo dolorum rerum, ratione nam! Dolorum illo necessitatibus maxime est reiciendis.
+                </p>
+            </div>
+            <img class="event__image" src="./images/bolo.jpg" alt="Bolo">
+        </div>
+    </section>
+
+    <section class="event event--cupcake event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">CupCakes</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo officiis nulla, pariatur at tenetur cum explicabo quisquam repellendus totam illo dolorum rerum, ratione nam! Dolorum illo necessitatibus maxime est reiciendis.
+                </p>
+            </div>
+            <img class="event__image" src="./images/cupcakes.jpg" alt="CupCakes">
+        </div>
+    </section>
+
+    <section class="event event--musica">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Música</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo officiis nulla, pariatur at tenetur cum explicabo quisquam repellendus totam illo dolorum rerum, ratione nam! Dolorum illo necessitatibus maxime est reiciendis.
+                </p>
+            </div>
+            <img class="event__image" src="./images/mixer.jpg" alt="Música">
+        </div>
+    </section>
+
+    <section class="event event--bebida event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Bebidas</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo officiis nulla, pariatur at tenetur cum explicabo quisquam repellendus totam illo dolorum rerum, ratione nam! Dolorum illo necessitatibus maxime est reiciendis.
+                </p>
+            </div>
+            <img class="event__image" src="./images/bebidas.jpg" alt="Bebidas">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
